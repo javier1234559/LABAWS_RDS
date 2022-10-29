@@ -10,7 +10,6 @@ def getAttr(cols, dtype):
     return attr
 
 def insert(conn):
-    # Mình chỉ chọn ra 5 ngày đầu tháng 1/2022 để demo cho bài Lab
     dt=['01-01-2022','01-02-2022','01-03-2022','01-04-2022','01-05-2022']
     counter = 1
     for d in dt:
